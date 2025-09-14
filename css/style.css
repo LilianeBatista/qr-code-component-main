@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(../src/outfit/OFL.txt) format("truetype")
+  url(../src/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  width: 100vw;
+  height: 100vh;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  height: 550px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  
+}
+
+img {
+  width: 95%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  padding: 15px;
+}
+
+p {
+  color: hsl(216, 15%, 48%);
+  padding: 10px;
+}
