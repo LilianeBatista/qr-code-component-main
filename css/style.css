@@ -6,8 +6,7 @@
 
 @font-face {
   font-family: Outfit;
-  src: url(../src/outfit/OFL.txt) format("truetype")
-  url(../src/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+  src: url(../src/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
 }
 
 body {
@@ -22,29 +21,30 @@ body {
 
 main {
   background-color: hsl(0, 0%, 100%);
-  width: 350px;
-  height: 550px;
-  border-radius: 10px;
+  width: 230px;
+  height: 365px;
+  border-radius: 12px;
   padding: 10px;
   font-family: "Outfit", sans-serif;
   text-align: center;
-  font-size: 12px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
   
 }
 
 img {
-  width: 95%;
+  width: 98%;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
-  padding: 15px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 p {
-  color: hsl(216, 15%, 48%);
-  padding: 10px;
+  color: hsl(216, 15%, 48%);  
+  font-size: 11px;
+  margin: 8px;
 }
